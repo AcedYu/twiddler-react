@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# twiddler-react
+This program was a refactoring of the twiddler-jquery assignment I was given by the Hack Reactor Software Engineering Immersive Precourse Program. I have refactored my previous mock social networking site single-page application built with jQuery into a single-page application built with React.js.
+
+I implement features such as:
+- A user feed
+- An "Update Feed" button to refresh and display new items in reverse chronological order
+- A Friends List side bar
+- A "User Feed" feature to render items posted by specific users
+  - By clicking on a username on a feed item or the username on the Friends list you can view the user's personal feed
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,26 +55,18 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [React.js](https://reactjs.org/)
 
-### Analyzing the Bundle Size
+## Deployed Link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [See Live Site](https://acedyu.github.io/twiddler-react/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+AcedYu
+- [Link to Github](https://github.com/AcedYu)
+- [Link to LinkedIn](https://www.linkedin.com/in/alex-yu-3712811b9/)
