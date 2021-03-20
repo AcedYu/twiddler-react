@@ -64,7 +64,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployed Link
 
-* [See Live Site](https://acedyu.github.io/twiddler-react/)
+* This site has not completed it's final build.
 
 ## Authors
 AcedYu
