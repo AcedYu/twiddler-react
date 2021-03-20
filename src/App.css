@@ -1,38 +1,151 @@
-.App {
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+/* Header css */
+header {
+  /* Fixed position CSS below */
+  /* position: fixed;
+  left: 50%;
+  transform: translateX(-50%); */
+  margin: auto;
+  background-image: url('./assets/background/headerbackground.jpg');
+  width: 640px;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.headerwrap {
+  height: 50%;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  color: cyan;
+  text-align: center;
+  font-family: consolas;
+  font-size: 100px;
+}
+
+/* Button CSS */
+#update-feed {
+  background-color: blue;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: consolas;
+  font-size: large;
+}
+
+/* Friends List CSS */
+#friendlist {
+  position: fixed;
+  left: 6.5%;
+  text-align: left;
+  background-color: black;
+  border-radius: 12px;
+  border: 15px solid rgb(194, 241, 241);
+}
+
+h2 {
+  color: cyan;
+  text-align: center;
+  font-family: consolas;
+  font-size: 60px;
+}
+
+.listname {
+  font-family: Arial Black;
+  font-size: xx-large;
+}
+
+.listname:hover {
+  color: lightskyblue;
+}
+
+.listwrap {
+  left: 0;
+  right: 0;
+}
+
+ul {
+  list-style-type: none;
+  background: rgb(194, 241, 241);
+  padding: 20px;
+  border: 30px solid black;
+}
+
+/* background */
+body {
+  background-image: url('./assets/background/background.jpg');
+}
+
+/* Feed CSS */
+#app {
+  color: black;
+  height: fit-content;
+  text-align: left;
+  display: inline;
+}
+
+.container {
+  position: relative;
+  height: 50px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+table {
+  width: 500px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.username {
+  font-family: Arial Black;
+  font-size: xx-large;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.username:hover {
+  color: lightskyblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.timestamp {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
 }
 
-.App-link {
-  color: #61dafb;
+#buttonlayout {
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i:hover {
+  color: lightskyblue;
 }
